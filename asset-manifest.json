@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/xtasy24/static/css/main.7923469f.css",
-    "main.js": "/xtasy24/static/js/main.34cb80a1.js",
+    "main.js": "/xtasy24/static/js/main.682646f5.js",
     "static/media/bg.jpg": "/xtasy24/static/media/bg.038eda5fea6a88726dec.jpg",
     "static/media/services.png": "/xtasy24/static/media/services.ffa808a8fa9bc0a4cd7d.png",
     "static/media/XTASY 2K24.png": "/xtasy24/static/media/XTASY 2K24.1f57e6f4d0bf0f277c48.png",
@@ -14,10 +14,10 @@
     "static/media/djsan.png": "/xtasy24/static/media/djsan.796bbfb051904b6c2a9f.png",
     "index.html": "/xtasy24/index.html",
     "main.7923469f.css.map": "/xtasy24/static/css/main.7923469f.css.map",
-    "main.34cb80a1.js.map": "/xtasy24/static/js/main.34cb80a1.js.map"
+    "main.682646f5.js.map": "/xtasy24/static/js/main.682646f5.js.map"
   },
   "entrypoints": [
     "static/css/main.7923469f.css",
-    "static/js/main.34cb80a1.js"
+    "static/js/main.682646f5.js"
   ]
 }
