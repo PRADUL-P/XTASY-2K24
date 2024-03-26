@@ -1,0 +1,91 @@
+/* line 1, ../../Arafath/CL/December/236. Event-02/HTML/scss/_map.scss */
+.map_area {
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  /* line 3, ../../Arafath/CL/December/236. Event-02/HTML/scss/_map.scss */
+  .map_area #map {
+    height: 400px !important;
+  }
+}
+
+/* line 8, ../../Arafath/CL/December/236. Event-02/HTML/scss/_map.scss */
+.map_area .location_information {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
+  padding: 65px 70px 70px 65px;
+  right: 20%;
+  max-width: 460px;
+}
+
+@media (max-width: 767px) {
+  /* line 8, ../../Arafath/CL/December/236. Event-02/HTML/scss/_map.scss */
+  .map_area .location_information {
+    padding: 20px;
+    right: 20px;
+    left: 20px;
+    bottom: 20px;
+  }
+}
+
+/* line 22, ../../Arafath/CL/December/236. Event-02/HTML/scss/_map.scss */
+.map_area .location_information h3 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #FF4533;
+  margin-bottom: 20px;
+}
+
+/* line 30, ../../Arafath/CL/December/236. Event-02/HTML/scss/_map.scss */
+.map_area .location_information .info_wrap .single_info {
+  display: flex;
+  margin-bottom: 7px;
+}
+
+@media (max-width: 767px) {
+  /* line 30, ../../Arafath/CL/December/236. Event-02/HTML/scss/_map.scss */
+  .map_area .location_information .info_wrap .single_info {
+    display: block;
+  }
+}
+
+/* line 36, ../../Arafath/CL/December/236. Event-02/HTML/scss/_map.scss */
+.map_area .location_information .info_wrap .single_info:last-child {
+  margin-bottom: 0;
+}
+
+/* line 39, ../../Arafath/CL/December/236. Event-02/HTML/scss/_map.scss */
+.map_area .location_information .info_wrap .single_info span {
+  font-family: "Muli", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: 20px;
+  color: #AAB1B7;
+}
+
+@media (max-width: 767px) {
+  /* line 39, ../../Arafath/CL/December/236. Event-02/HTML/scss/_map.scss */
+  .map_area .location_information .info_wrap .single_info span {
+    font-size: 14px;
+  }
+}
+
+/* line 49, ../../Arafath/CL/December/236. Event-02/HTML/scss/_map.scss */
+.map_area .location_information .info_wrap .single_info p {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+@media (max-width: 767px) {
+  /* line 49, ../../Arafath/CL/December/236. Event-02/HTML/scss/_map.scss */
+  .map_area .location_information .info_wrap .single_info p {
+    font-size: 14px;
+  }
+}
+
