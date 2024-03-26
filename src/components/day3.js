@@ -24,7 +24,7 @@ const ExperienceCard = ({ day3 }) => {
       }}
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}
       date={day3.date}
-      iconStyle={{ background: day2.iconBg }}
+      iconStyle={{ background: day3.iconBg }}
       icon={
         <div className="flex justify-center items-center w-full h-full">
           <h1 className="w-[60%] h-[60%] object-contain ">
@@ -32,8 +32,8 @@ const ExperienceCard = ({ day3 }) => {
             {day3.activity_points}{" "}
           </h1>
           {/* <img
-            src={day2.icon}
-            alt={day2.company_name}
+            src={day3.icon}
+            alt={day3.company_name}
             className='w-[60%] h-[60%] object-contain'
           /> */}
         </div>
@@ -45,18 +45,18 @@ const ExperienceCard = ({ day3 }) => {
           className="text-secondary text-[16px] font-semibold"
           style={{ margin: 0 }}
         >
-          {day2.activity_points}
+          {day3.activity_points}
         </p>
         <p
           className="text-secondary text-[16px] font-semibold"
           style={{ margin: 0 }}
         >
-          {day2.fee}
+          {day3.fee}
         </p>
       </div>
 
       <ul className="mt-5 list-disc ml-5 space-y-2">
-        {day2.points.map((point, index) => {
+        {day3.points.map((point, index) => {
           const maxLength = 200; // Set the maximum length of the truncated text
           const truncatedPoint =
             point.length > maxLength
@@ -65,7 +65,7 @@ const ExperienceCard = ({ day3 }) => {
 
           return (
             <li
-              key={`day2-point-${index}`}
+              key={`day3-point-${index}`}
               className="text-white-100 text-[14px] pl-1 tracking-wider items-center"
             >
               <p className="leading-tight">{truncatedPoint}</p>
@@ -162,16 +162,16 @@ const Experience = () => {
     <>
       <div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
-          day 2<br />
-          27/04/2023
+          day 3<br />
+          19/04/2024
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>events</h2>
       </div>
 
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>
-          {Sday.map((day2, index) => (
-            <ExperienceCard key={`day2-${index}`} day2={day2} />
+          {Sday.map((day3, index) => (
+            <ExperienceCard key={`day3-${index}`} day3={day3} />
           ))}
         </VerticalTimeline>
       </div>

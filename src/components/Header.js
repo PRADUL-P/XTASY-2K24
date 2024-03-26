@@ -9,7 +9,7 @@ const Header = () => {
       <div className='flex justify-between items-center'>
       
        <Link to='/'>
-          <h1 className='h-[60px] font-monton uppercase'>aakriti</h1>
+          <h1 className='h-[60px] font-monton uppercase'>XTASY-2K24</h1>
           {/* <img className='h-[50px]' src={Logo} alt=''/> */}
         </Link>
         {/* <Link to=''> */}
@@ -18,7 +18,7 @@ const Header = () => {
         type="button"
         onClick={(e) => {
           e.preventDefault();
-          window.location.href='http://google.com';
+          window.location.href='https://forms.gle/RPtoSDGWfZ8dgJta8';
           }}
           > REGISTER</button>
         {/* </Link> */}

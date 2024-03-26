@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import React, { useState } from "react";
 import { TypeAnimation } from "react-type-animation";
 import { fadeIn } from "../variants";
+import logoImage from "../assets/XTASY 2K24.png"; // Update the path to your logo image
 
 const Banner = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -10,7 +11,7 @@ const Banner = () => {
   const openModal = () => {
     setIsModalOpen(true);
     // Set the PDF URL here
-    setPdfUrl(require("../EVENTS REGISTRATION FEE.pdf")); // Assuming AAKRITI.pdf is in the same directory
+    setPdfUrl(require("../EVENTS REGISTRATION FEE.pdf")); // directory
   };
 
   const closeModal = () => {
@@ -32,6 +33,8 @@ const Banner = () => {
         <div className="container mx-auto flex justify-center items-center text-center">
           <div className="flex items-center gap-y-8 lg:flex-row lg:items-center">
             <div className="flex-1 font-secondary lg:text-center items-center mt-12">
+               {/* Logo */}
+               <img src={logoImage} alt="Logo" className="mx-auto" style={{ width: "450px", height: "450px" }} />
               <motion.h1
                 variants={fadeIn('down', 0.3)}
                 initial='hidden'
@@ -99,6 +102,8 @@ const Banner = () => {
             </div>
             <div className="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
               <div className="px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+               
+
                 <embed src={pdfUrl} type="application/pdf" width="100%" height="700px" />
                 <div className="mt-5 sm:mt-4">
                   <button
@@ -118,3 +123,4 @@ const Banner = () => {
 };
 
 export default Banner;
+

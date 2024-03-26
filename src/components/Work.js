@@ -1,6 +1,7 @@
-import React from "react";
-import {Tilt} from "react-tilt";
+import React, { useState } from "react";
+import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
+import { FiMessageSquare } from "react-icons/fi"; // Import the message icon
 
 import { styles } from "../styles";
 
@@ -8,12 +9,27 @@ import { SectionWrapper } from "../hoc";
 import { projects } from "../database/datas";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const ProjectCard = ({
-  index,
-  name,
-  image,
-  source_code_link,
-}) => {
+const Tooltip = ({ details }) => {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 10 }} // Change initial y position to display below the card
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: 10 }} // Change exit y position to hide below the card
+      transition={{ duration: 0.3 }}
+      className="absolute bottom-0 left-1/2 transform -translate-x-1/2 p-2 rounded shadow bg-opacity-50 backdrop-filter backdrop-blur-lg bg-white bg-opacity-10"
+    >
+      <p className="text-white">{details}</p>
+    </motion.div>
+  );
+};
+
+const ProjectCard = ({ index, name, name2, description, image, source_code_link }) => {
+  const [showTooltip, setShowTooltip] = useState(true);
+
+  const toggleTooltip = () => {
+    setShowTooltip(!showTooltip);
+  };
+
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
@@ -22,44 +38,40 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full relative"
       >
-        <div className='relative w-full h-[230px]'>
-          <img 
+        <div className="relative w-full h-[230px]">
+          <img
             src={image}
-            alt='project_image'
-            className='w-full h-full object-cover rounded-2xl'
+            alt="project_image"
+            className="w-full h-full object-cover rounded-2xl"
           />
-
-
-          <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className='  w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-            >
-             
-            </div>
+              className="w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+            ></div>
           </div>
         </div>
 
-        <div className='mt-5'>
-          <h3 className='text-white font-bold text-[24px]'
-          onClick={() => window.open(source_code_link, "_blank")}
-          >{name}
+        <div className="mt-5">
+          <h3
+            className="text-white font-bold text-[24px] cursor-pointer"
+            onClick={() => window.open(source_code_link, "_blank")}
+          >
+            {name}
           </h3>
-          {/* <p className='mt-2 text-secondary text-[14px]'>{description}</p> */}
+          <h3
+            className="text-white font-bold text-[20px] cursor-pointer"
+            onClick={() => window.open(source_code_link, "_blank")}
+          >
+            {name2}
+          </h3>
+          <div className="mt-2 cursor-pointer" onClick={toggleTooltip}>
+            <FiMessageSquare className="text-white text-3xl" />
+          </div>
+          {showTooltip && <Tooltip details={description} />}
         </div>
-
-        {/* <div className='mt-4 flex flex-wrap gap-2'>
-          {tags.map((tag) => (
-            <p
-              key={`${name}-${tag.name}`}
-              className={`text-[14px] ${tag.color}`}
-            >
-              #{tag.name}
-            </p>
-          ))}
-        </div> */}
       </Tilt>
     </motion.div>
   );
@@ -69,24 +81,10 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>IN ASSOCIATED WITH</p>
-        {/* <h2 className={`${styles.sectionHeadText}`}></h2> */}
+        <h2 className="h2 text-accent mb-6 ">Special Guest</h2>
       </motion.div>
 
-      {/* <div className='w-full flex'>
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
-        >
-           Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively. 
-        </motion.p>
-      </div> */}
-
-      <div className='mt-20 flex flex-wrap gap-7'>
+      <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

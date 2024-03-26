@@ -19,9 +19,11 @@ const App = () => {
       <Banner /> 
       <Nav />
       <About />
-      <Events/>
-      <Venue/>
       <Work />
+      <Events/>
+      
+      
+      <Venue/>
      <Contact />
       <Footer/>
      
