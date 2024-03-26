@@ -63,7 +63,7 @@ const ExperienceCard = ({ day1 }) => {
         </p>
       </div>
       <a
- href={require("../AAKRITI.pdf")}
+ href={require("../EVENTS REGISTRATION FEE.pdf")}
   className="text-gradient btn-link lg:item-center text-center uppercase"
   onClick={(e) => {
     e.preventDefault();

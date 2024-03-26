@@ -10,7 +10,7 @@ const Banner = () => {
   const openModal = () => {
     setIsModalOpen(true);
     // Set the PDF URL here
-    setPdfUrl(require("../AAKRITI.pdf")); // Assuming AAKRITI.pdf is in the same directory
+    setPdfUrl(require("../EVENTS REGISTRATION FEE.pdf")); // Assuming AAKRITI.pdf is in the same directory
   };
 
   const closeModal = () => {
@@ -19,7 +19,7 @@ const Banner = () => {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.download = "AAKRITI BROCHURE.pdf";
+    link.download = "xtasy-schedule.pdf";
     link.href = pdfUrl;
     document.body.appendChild(link);
     link.click();
