@@ -1,6 +1,6 @@
 {
-  "name": "XTASY-2K24",
-  "homepage": "https://pradul-p.github.io/xtasy24/",
+  "name": "xtasy24",
+  "homepage": "https://pradul-p.github.io/xtasy24",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
