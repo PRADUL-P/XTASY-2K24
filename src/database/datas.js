@@ -196,6 +196,24 @@ const projects = [
     image: Ui,
     source_code_link: "https://www.stthomaskannur.ac.in/stm2/IEDC/", description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry"
   },
+  {
+    name: "Matadoria",
+    name2:"BAND",
+    image: Ui,
+    source_code_link: "https://www.stthomaskannur.ac.in/stm2/IEDC/", description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+  },
+  {
+    name: "Matadoria",
+    name2:"BAND",
+    image: Ui,
+    source_code_link: "https://www.stthomaskannur.ac.in/stm2/IEDC/", description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+  },
+  {
+    name: "Matadoria",
+    name2:"BAND",
+    image: Ui,
+    source_code_link: "https://www.stthomaskannur.ac.in/stm2/IEDC/", description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+  },
 ];
 
 const contact = [

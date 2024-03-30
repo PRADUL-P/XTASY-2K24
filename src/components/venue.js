@@ -16,7 +16,7 @@ function Map() {
       ></iframe>
 
       <div className="location_information bg-bgc wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-        <h3>XTASY</h3>
+        <h3>AAKRITI</h3>
         <div className="info_wrap">
           <div className="single_info">
             <span>Venue:</span>
@@ -24,7 +24,7 @@ function Map() {
           </div>
           <div className="single_info">
             <span>Phone:</span>
-            <p>+91 </p>
+            <p>+91 2 283</p>
           </div>
           <div className="single_info">
             <span>Email:</span>

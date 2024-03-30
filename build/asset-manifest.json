@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/AAKRITI/static/css/main.a8139e8f.css",
+    "main.js": "/AAKRITI/static/js/main.f28a303a.js",
+    "static/media/bg.jpg": "/AAKRITI/static/media/bg.038eda5fea6a88726dec.jpg",
+    "static/media/stm.png": "/AAKRITI/static/media/stm.bbf4462cc4f90183d257.png",
+    "static/media/iedc.png": "/AAKRITI/static/media/iedc.6e44399248f4af84cd4d.png",
+    "static/media/image.png": "/AAKRITI/static/media/image.a24757192557f6e16b77.png",
+    "static/media/AAKRITI.pdf": "/AAKRITI/static/media/AAKRITI.180f84be46cabf856297.pdf",
+    "static/media/web1.png": "/AAKRITI/static/media/web1.ba193f138b6dede1abcc.png",
+    "index.html": "/AAKRITI/index.html",
+    "main.a8139e8f.css.map": "/AAKRITI/static/css/main.a8139e8f.css.map",
+    "main.f28a303a.js.map": "/AAKRITI/static/js/main.f28a303a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8139e8f.css",
+    "static/js/main.f28a303a.js"
+  ]
+}

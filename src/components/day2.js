@@ -162,8 +162,8 @@ const Experience = () => {
     <>
       <div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
-          DAY 2<br />
-          18/04/2024
+          day 2<br />
+          27/04/2023
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>events</h2>
       </div>

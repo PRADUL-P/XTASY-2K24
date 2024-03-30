@@ -17,7 +17,7 @@ const router = createBrowserRouter([
   },
   {
 
-    path: "/XTASY",
+    path: "/XTASY-2K24",
     element:<App/>,
   },
  

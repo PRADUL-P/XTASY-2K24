@@ -1,6 +1,6 @@
 {
-  "name": "xtasy24",
-  "homepage": "https://pradul-p.github.io/xtasy24",
+  "name": "XTASY-2K24",
+  "homepage": "https://pradul-p.github.io/XTASY-2K24/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,7 +17,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-modal": "^3.16.1",
-    "react-pdf": "^7.7.1",
     "react-router-dom": "^6.8.2",
     "react-scripts": "5.0.1",
     "react-tilt": "^1.0.2",
