@@ -10,6 +10,7 @@ import Contact from './components/Contact';
 import Footer from './components/footer';
 import Events from './components/events';
 
+import Slider from './components/CoverFlow';
 const App = () => {
  
   
@@ -20,6 +21,7 @@ const App = () => {
       <Nav />
       <About />
       <Work />
+      <Slider/>
       <Events/>
       
       

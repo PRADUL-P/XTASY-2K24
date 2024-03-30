@@ -7,6 +7,7 @@ import Webdes from "../assets/services.png";
 import Ui from "../assets/Matadoria.png";
 import Ua from "../assets/djsan.png";
 import Ub from "../assets/jazzboy.png";
+
 const Fday = [
   {
     title: "VEGETABLE CARVING ",
@@ -240,5 +241,49 @@ const contact = [
     whatsapp:"8078376902",
   },
 ];
-
-export { Fday,Sday, projects,contact };
+const slider = [
+  {
+    name: "Job Kurian",
+    name2:"singer",
+    image: Webdes,
+    source_code_link: "https://stthomaskannur.ac.in/stm2/home",
+    description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+  },
+  // {
+  //   name: "jazzboy",
+  //   image: Ub,
+  //   source_code_link: "https://stthomaskannur.ac.in/stm2/department.php?id=ce",
+  // },
+  {
+    name: "djsan",
+    name2:"DJ",
+    image: Ua,
+    source_code_link: "https://www.stthomaskannur.ac.in/stm2/IEDC/",
+    description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+  },
+  {
+    name: "Matadoria",
+    name2:"BAND",
+    image: Ui,
+    source_code_link: "https://www.stthomaskannur.ac.in/stm2/IEDC/", description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+  },
+  {
+    name: "Matadoria",
+    name2:"BAND",
+    image: Ui,
+    source_code_link: "https://www.stthomaskannur.ac.in/stm2/IEDC/", description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+  },
+  {
+    name: "Matadoria",
+    name2:"BAND",
+    image: Ui,
+    source_code_link: "https://www.stthomaskannur.ac.in/stm2/IEDC/", description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+  },
+  {
+    name: "Matadoria",
+    name2:"BAND",
+    image: Ui,
+    source_code_link: "https://www.stthomaskannur.ac.in/stm2/IEDC/", description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+  },
+];
+export { Fday,Sday, projects,contact,slider };
