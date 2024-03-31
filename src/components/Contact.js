@@ -44,7 +44,7 @@ const ServiceCard = ({ index, title, contact,whatsapp,role }) => (
   
 </a>
     <a
-        href={`https://api.whatsapp.com/send?phone=${whatsapp}&text=Enquiring%20about%20Techfest`}
+        href={`https://api.whatsapp.com/send?phone=${whatsapp}&text=Enquiring%20about%20XTASY`}
         target="_blank"
         rel="noopener noreferrer"
       ><FontAwesomeIcon icon={faWhatsapp} className="text-green-400 mx-5 text-2xl mr-2" beat fade />

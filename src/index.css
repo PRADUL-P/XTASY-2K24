@@ -78,3 +78,22 @@
     @apply py-8 lg:py-24 flex items-center;
   }
 }
+.coverflow-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Set the height of the container */
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.enlarged {
+  transform: scale(1); /* Adjust the scale factor as needed */
+  height: 450px; /* Adjust the height as needed */
+  justify-content: center;
+  align-items: center;
+}

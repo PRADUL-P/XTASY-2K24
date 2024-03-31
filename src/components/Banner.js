@@ -67,7 +67,7 @@ const Banner = () => {
                 viewport={{once:false, amount:0.7}}
                 className="flex max-w-max gap-x-6 items-center m-5 mb-12 mx-auto  text-center"
               >
-                <button  
+                {/* <button  
                   className="btn btn-sm"
                   type="button"
                   onClick={(e) => {
@@ -76,8 +76,8 @@ const Banner = () => {
                   }}
                 >
                   REGISTER
-                </button>
-                <a
+                </button> */}
+                {/* <a
                   href="#"
                   className="text-gradient btn-link lg:item-center text-center uppercase"
                   onClick={(e) => {
@@ -86,7 +86,7 @@ const Banner = () => {
                   }}
                 >
                   brochure
-                </a>
+                </a> */}
               </motion.div>
             </div>
           </div>

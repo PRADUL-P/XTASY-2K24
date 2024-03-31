@@ -197,47 +197,48 @@ const projects = [
     image: Ui,
     source_code_link: "https://www.stthomaskannur.ac.in/stm2/IEDC/", description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry"
   },
-  {
-    name: "Matadoria",
-    name2:"BAND",
-    image: Ui,
-    source_code_link: "https://www.stthomaskannur.ac.in/stm2/IEDC/", description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry"
-  },
-  {
-    name: "Matadoria",
-    name2:"BAND",
-    image: Ui,
-    source_code_link: "https://www.stthomaskannur.ac.in/stm2/IEDC/", description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry"
-  },
-  {
-    name: "Matadoria",
-    name2:"BAND",
-    image: Ui,
-    source_code_link: "https://www.stthomaskannur.ac.in/stm2/IEDC/", description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry"
-  },
+  // {
+  //   name: "Matadoria",
+  //   name2:"BAND",
+  //   image: Ui,
+  //   source_code_link: "https://www.stthomaskannur.ac.in/stm2/IEDC/", description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+  // },
+  // {
+  //   name: "Matadoria",
+  //   name2:"BAND",
+  //   image: Ui,
+  //   source_code_link: "https://www.stthomaskannur.ac.in/stm2/IEDC/", description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+  // },
+  // {
+  //   name: "Matadoria",
+  //   name2:"BAND",
+  //   image: Ui,
+  //   source_code_link: "https://www.stthomaskannur.ac.in/stm2/IEDC/", description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+  // },
 ];
 
 const contact = [
   {
-    title: "name",
-    role:"coodinator",
-    contact:"8078376902",
+    title: "ASWIN P ",
+    role:"STAFF COORDINATOR",
+    contact:"123",
     whatsapp:"8078376902",
   },
   {
-    title: "name",
+    title: "NIGIL M",
+    role:"STAFF COORDINATOR",
+    contact:"123",
+    whatsapp:"8078376902",
+  },
+  {
+    title: "",
     role:"coodinator",
-    contact:"8078376902",
+    contact:"123",
     whatsapp:"8078376902",
   },{
-    title: "name",
+    title: "",
     role:"coodinator",
-    contact:"8078376902",
-    whatsapp:"8078376902",
-  },{
-    title: "name",
-    role:"coodinator",
-    contact:"8078376902",
+    contact:"123",
     whatsapp:"8078376902",
   },
 ];

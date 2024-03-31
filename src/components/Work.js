@@ -81,7 +81,7 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <h2 className="h2 text-accent mb-6 ">Special Guest</h2>
+        <h2 className="h2 text-accent m-10 mb-6 font-bold underline mb-[2rem] text-center  ">Special Guest</h2>
       </motion.div>
 
       <div className="mt-20 flex flex-wrap gap-7">

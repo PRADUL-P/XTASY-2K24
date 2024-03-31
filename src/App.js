@@ -10,12 +10,12 @@ import Contact from './components/Contact';
 import Footer from './components/footer';
 import Events from './components/events';
 
-import Slider from './components/CoverFlow';
+import Slider from './components/eventsslider';
 const App = () => {
  
   
   return (
-    <div className='bg-site bg-no-repeat bg-cover overflow-hidden'>
+    <div className='bg-site  bg-no-repeat bg-cover overflow-hidden'>
       <Header />
       <Banner /> 
       <Nav />
