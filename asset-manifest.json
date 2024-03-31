@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/XTASY-2K24/static/css/main.4961bf8d.css",
-    "main.js": "/XTASY-2K24/static/js/main.3938710e.js",
+    "main.js": "/XTASY-2K24/static/js/main.2a61f55d.js",
     "static/media/services.png": "/XTASY-2K24/static/media/services.ffa808a8fa9bc0a4cd7d.png",
     "static/media/site-bg.jpg": "/XTASY-2K24/static/media/site-bg.54724d703024833ef9c6.jpg",
-    "static/media/XTASY 2K24.png": "/XTASY-2K24/static/media/XTASY 2K24.1f57e6f4d0bf0f277c48.png",
     "static/media/FACE PAINTING.jpg": "/XTASY-2K24/static/media/FACE PAINTING.ff47f194e45848da1c43.jpg",
     "static/media/MIMICRY.jpg": "/XTASY-2K24/static/media/MIMICRY.1202111571f2de5d050d.jpg",
     "static/media/SPOT DANCE.jpg": "/XTASY-2K24/static/media/SPOT DANCE.3354c96feee637a22240.jpg",
@@ -20,6 +19,7 @@
     "static/media/jazzboy.png": "/XTASY-2K24/static/media/jazzboy.9e31a7a5ed68bfee7e0b.png",
     "static/media/stm.png": "/XTASY-2K24/static/media/stm.bbf4462cc4f90183d257.png",
     "static/media/PROGRAMME SCHEDULE.pdf": "/XTASY-2K24/static/media/PROGRAMME SCHEDULE.ce7a80928d8146ed4974.pdf",
+    "static/media/XTASY_2K24.png": "/XTASY-2K24/static/media/XTASY_2K24.2abe49b7efe2f124cb2e.png",
     "static/media/EVENT COORDINATORS.pdf": "/XTASY-2K24/static/media/EVENT COORDINATORS.aa9611525a5f8be456c2.pdf",
     "static/media/iedc.png": "/XTASY-2K24/static/media/iedc.6e44399248f4af84cd4d.png",
     "static/media/Matadoria.png": "/XTASY-2K24/static/media/Matadoria.c3a4b1ce680abc5b187b.png",
@@ -28,10 +28,10 @@
     "static/media/djsan.png": "/XTASY-2K24/static/media/djsan.796bbfb051904b6c2a9f.png",
     "index.html": "/XTASY-2K24/index.html",
     "main.4961bf8d.css.map": "/XTASY-2K24/static/css/main.4961bf8d.css.map",
-    "main.3938710e.js.map": "/XTASY-2K24/static/js/main.3938710e.js.map"
+    "main.2a61f55d.js.map": "/XTASY-2K24/static/js/main.2a61f55d.js.map"
   },
   "entrypoints": [
     "static/css/main.4961bf8d.css",
-    "static/js/main.3938710e.js"
+    "static/js/main.2a61f55d.js"
   ]
 }
