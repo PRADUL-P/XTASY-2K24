@@ -84,7 +84,7 @@ const CoverFlow = () => {
             effect={'coverflow'}
             loop={true}
             spaceBetween={40}
-            slidesPerView={3}
+            slidesPerView={window.innerWidth < 640 ? 1 : 3} // Adjust slidesPerView based on screen size
             pagination={{
               clickable: true,
             }}

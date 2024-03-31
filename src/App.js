@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import Banner from './components/Banner';
 import Header from './components/Header';
 import Nav from './components/Nav';
+import Navhori from './components/Nav  hori';
 import About from './components/About';
 import Venue from './components/venue';
 import Work from './components/Work';
@@ -19,6 +20,7 @@ const App = () => {
       <Header />
       <Banner /> 
       <Nav />
+      <Navhori />
       <About />
       <Work />
       <Slider/>
