@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import React, { useState } from "react";
 import { TypeAnimation } from "react-type-animation";
 import { fadeIn } from "../variants";
-import logoImage from "../assets/XTASY 2K24.png"; // Update the path to your logo image
+import logoImage from "../assets/XTASY_2K24.png"; // Update the path to your logo image
 
 const Banner = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
