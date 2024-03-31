@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/XTASY-2K24/static/css/main.3786bb7d.css",
-    "main.js": "/XTASY-2K24/static/js/main.faf3d970.js",
+    "main.css": "/XTASY-2K24/static/css/main.e12238d7.css",
+    "main.js": "/XTASY-2K24/static/js/main.e82f6c2c.js",
+    "static/media/bg2.jpg": "/XTASY-2K24/static/media/bg2.cfff74054e681697ec86.jpg",
     "static/media/services.png": "/XTASY-2K24/static/media/services.ffa808a8fa9bc0a4cd7d.png",
-    "static/media/site-bg.jpg": "/XTASY-2K24/static/media/site-bg.54724d703024833ef9c6.jpg",
     "static/media/FACE PAINTING.jpg": "/XTASY-2K24/static/media/FACE PAINTING.ff47f194e45848da1c43.jpg",
     "static/media/MIMICRY.jpg": "/XTASY-2K24/static/media/MIMICRY.1202111571f2de5d050d.jpg",
     "static/media/SPOT DANCE.jpg": "/XTASY-2K24/static/media/SPOT DANCE.3354c96feee637a22240.jpg",
@@ -27,11 +27,11 @@
     "static/media/image.png": "/XTASY-2K24/static/media/image.a24757192557f6e16b77.png",
     "static/media/djsan.png": "/XTASY-2K24/static/media/djsan.796bbfb051904b6c2a9f.png",
     "index.html": "/XTASY-2K24/index.html",
-    "main.3786bb7d.css.map": "/XTASY-2K24/static/css/main.3786bb7d.css.map",
-    "main.faf3d970.js.map": "/XTASY-2K24/static/js/main.faf3d970.js.map"
+    "main.e12238d7.css.map": "/XTASY-2K24/static/css/main.e12238d7.css.map",
+    "main.e82f6c2c.js.map": "/XTASY-2K24/static/js/main.e82f6c2c.js.map"
   },
   "entrypoints": [
-    "static/css/main.3786bb7d.css",
-    "static/js/main.faf3d970.js"
+    "static/css/main.e12238d7.css",
+    "static/js/main.e82f6c2c.js"
   ]
 }
