@@ -127,49 +127,191 @@ const Fday = [
 
 ];
 const Sday = [
-  {
-    title: "EVENT NAME1",
-    activity_points: "ACTIVITY POINTS",
-     fee: "fees",
+ { title: "VEGETABLE CARVING ",
+    position: "OFF STAGE",
+    // icon:civilenggImage,
+   // fee: " 1500",
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    years: "REGISTRATION FEE : 100",
+    
+   
     points: [
-      "1234569is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    ],
-  },
-  {
-    title: "EVENT NAME2",
-    activity_points: "ACTIVITY POINTS",
-     fee: "fees",
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "98765432 is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    ],
-  },{
-    title: "EVENT NAME",
-    activity_points: "ACTIVITY POINTS",
-     fee: "fees",
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    ],
-  },{
-    title: "EVENT NAME",
-    activity_points: "ACTIVITY POINTS",
-     fee: "fees",
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      // "Implementing responsive design and ensuring cross-browser compatibility.",
+      {
+        header: "FACULTY IN CHARGES",
+        paragraph: "",
+        date: "Ms. Roopa Balakrishnan , Ms. Jithika M",
+      },
+      {
+        header: "STUDENT IN CHARGES",
+        paragraph: "",
+        date: "Abhiram P (S8 CSE) , Gopika N (S8 CSE) ",
+       },
       
+
     ],
   },
+  {
+    title: "NADANPAATTU ",
+    position: "ON-STAGE ",
+    // icon:civilenggImage,
+    //  fee: "fui",
+    iconBg: "#383E56",
+    years: "REGISTRATION FEE : 500",
+    
+   
+    points: [
+      {
+        header: "FACULTY IN CHARGES",
+        paragraph: "",
+        date: "Ms. Jisna P , Mr. Chandrajith E ",
+      },
+      {
+        header: "STUDENT IN CHARGES",
+        paragraph: "",
+        date: "Sreya Sajeevan (S4 CSE) ,Hridik (S4 EC) ",
+       },
+       
+    ],
+  },
+  {
+    title: "SPOT DANCE ",
+    position: "ON-STAGE ",
+    // icon:civilenggImage,
+    //  fee: "fui",
+    iconBg: "#383E56",
+    years: "REGISTRATION FEE : 200",
+    
+   
+    points: [
+      {
+        header: "FACULTY IN CHARGES",
+        paragraph: "",
+        date: "Ms. Vaisakhi V K , Ms. Sreelakshmi Prasad ",
+      },
+      {
+        header: "STUDENT IN CHARGES",
+        paragraph: "",
+        date: "Akash Pradeep (S6 ME) , Nandana Pradeep (S6 CE)  ",
+       },
+      ],
+      },
+      {
+        title: "CINEMATIC DANCE ",
+        position: "ON-STAGE ",
+        // icon:civilenggImage,
+        //  fee: "fui",
+        iconBg: "#383E56",
+        years: "REGISTRATION FEE : 600",
+        
+       
+        points: [
+          {
+            header: "FACULTY IN CHARGES",
+            paragraph: "",
+            date: "Ms. Sreedha Sreedhar , Mr. Rasma S ",
+          },
+          {
+            header: "STUDENT IN CHARGES",
+            paragraph: "",
+            date: "Anjeetha Suresh (S8 CSE) , Vishnu K (S8 ME)",
+           },
+          ],
+          },
  
 ];
+const Tday = [
+  { title: "VEGETABLE CARVING ",
+     position: "OFF STAGE",
+     // icon:civilenggImage,
+    // fee: " 1500",
+     iconBg: "#383E56",
+     years: "REGISTRATION FEE : 100",
+     
+    
+     points: [
+       {
+         header: "FACULTY IN CHARGES",
+         paragraph: "",
+         date: "Ms. Roopa Balakrishnan , Ms. Jithika M",
+       },
+       {
+         header: "STUDENT IN CHARGES",
+         paragraph: "",
+         date: "Abhiram P (S8 CSE) , Gopika N (S8 CSE) ",
+        },
+       
+ 
+     ],
+   },
+   {
+     title: "NADANPAATTU ",
+     position: "ON-STAGE ",
+     // icon:civilenggImage,
+     //  fee: "fui",
+     iconBg: "#383E56",
+     years: "REGISTRATION FEE : 500",
+     
+    
+     points: [
+       {
+         header: "FACULTY IN CHARGES",
+         paragraph: "",
+         date: "Ms. Jisna P , Mr. Chandrajith E ",
+       },
+       {
+         header: "STUDENT IN CHARGES",
+         paragraph: "",
+         date: "Sreya Sajeevan (S4 CSE) ,Hridik (S4 EC) ",
+        },
+        
+     ],
+   },
+   {
+     title: "SPOT DANCE ",
+     position: "ON-STAGE ",
+     // icon:civilenggImage,
+     //  fee: "fui",
+     iconBg: "#383E56",
+     years: "REGISTRATION FEE : 200",
+     
+    
+     points: [
+       {
+         header: "FACULTY IN CHARGES",
+         paragraph: "",
+         date: "Ms. Vaisakhi V K , Ms. Sreelakshmi Prasad ",
+       },
+       {
+         header: "STUDENT IN CHARGES",
+         paragraph: "",
+         date: "Akash Pradeep (S6 ME) , Nandana Pradeep (S6 CE)  ",
+        },
+       ],
+       },
+       {
+         title: "CINEMATIC DANCE ",
+         position: "ON-STAGE ",
+         // icon:civilenggImage,
+         //  fee: "fui",
+         iconBg: "#383E56",
+         years: "REGISTRATION FEE : 600",
+         
+        
+         points: [
+           {
+             header: "FACULTY IN CHARGES",
+             paragraph: "",
+             date: "Ms. Sreedha Sreedhar , Mr. Rasma S ",
+           },
+           {
+             header: "STUDENT IN CHARGES",
+             paragraph: "",
+             date: "Anjeetha Suresh (S8 CSE) , Vishnu K (S8 ME)",
+            },
+           ],
+           },
+  
+ ];
 
 const projects = [
   {
@@ -221,26 +363,26 @@ const contact = [
   {
     title: "ASWIN P ",
     role:"STAFF COORDINATOR",
-    contact:"123",
-    whatsapp:"8078376902",
+    contact:"+91 98094 21421",
+    whatsapp:"+9198094 21421",
   },
   {
     title: "NIGIL M",
     role:"STAFF COORDINATOR",
-    contact:"123",
-    whatsapp:"8078376902",
+    contact:"+91 99462 51408",
+    whatsapp:"+9199462 51408",
   },
-  {
-    title: "",
-    role:"coodinator",
-    contact:"123",
-    whatsapp:"8078376902",
-  },{
-    title: "",
-    role:"coodinator",
-    contact:"123",
-    whatsapp:"8078376902",
-  },
+  // {
+  //   title: "",
+  //   role:"coodinator",
+  //   contact:"123",
+  //   whatsapp:"8078376902",
+  // },{
+  //   title: "",
+  //   role:"coodinator",
+  //   contact:"123",
+  //   whatsapp:"8078376902",
+  // },
 ];
 const slider = [
   {
@@ -287,4 +429,4 @@ const slider = [
     source_code_link: "https://www.stthomaskannur.ac.in/stm2/IEDC/", description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry"
   },
 ];
-export { Fday,Sday, projects,contact,slider };
+export { Fday,Sday,Tday, projects,contact,slider };

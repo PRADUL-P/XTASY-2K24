@@ -20,16 +20,16 @@ function Map() {
         <div className="info_wrap">
           <div className="single_info">
             <span>Venue:</span>
-            <p>stm sivapuram ,mattanur</p>
+            <p>St. Thomas College of Engineering & Technology, Sivapuram, Kannur</p>
           </div>
           <div className="single_info">
             <span>Phone:</span>
-            <p>+91 2 283</p>
+            <p>0490 240 1702</p>
           </div>
-          <div className="single_info">
+          {/* <div className="single_info">
             <span>Email:</span>
             <p>contact@stm.com</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

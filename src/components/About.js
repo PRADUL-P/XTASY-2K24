@@ -28,12 +28,8 @@ const About = () => {
         className='flex-1'>  
           <h2 className='h2 text-accent'>About <span className='text-white'>event</span> </h2>
           <h3 className='h3 mb-4'></h3>
-          <p className='mb-6'>Lorem Ipsum has been the industry's standard dummy text ever since the 15
-          00s, when an unknown printer took a galley of type and scrambled it to make a type specimen b
-          ook. It has survived not only five centuries, but also the leap into electronic typesetting, rem
-          aining essentially unchanged. It was popularised in the 1960
-          s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-           desktop</p>
+          <p className='mb-6'>Welcome to XTASY 2K24, where innovation meets celebration! We are thrilled to present our annual extravaganza, XTASY, blending the best of technology and culture under one dynamic roof. From electrifying technical challenges to captivating cultural performances, XTASY promises an unparalleled fusion of excitement, learning, and entertainment. Dive into a world of cutting-edge competitions, workshops by industry experts, and insightful seminars that push the boundaries of innovation. Get ready to be mesmerized by the vibrancy of our cultural events, showcasing talents ranging from music and dance to art and literature.
+Join us as we embark on a journey of discovery, creativity, and camaraderie. XTASY 2K24 is not just an event; it’s an experience you won’t want to miss !!</p>
         
         </motion.div>
         <motion.div
@@ -44,12 +40,7 @@ const About = () => {
         className='flex-1'>  
           <h2 className='h2 text-accent'>About <span className='text-white'>college</span> </h2>
           <h3 className='h3 mb-4'></h3>
-          <p className='mb-6'>Lorem Ipsum has been the industry's standard dummy text ever since the 15
-          00s, when an unknown printer took a galley of type and scrambled it to make a type specimen b
-          ook. It has survived not only five centuries, but also the leap into electronic typesetting, rem
-          aining essentially unchanged. It was popularised in the 1960
-          s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-           desktop</p>
+          <p className='mb-6'>St Thomas Engineering College, Sivapuram, Mattannur was established by St Thomas Educational Society, Adoor with a view to impart high quality engineering education through systematic studies and efficient training. The college has a team of eminent faculty members and a disciplined atmosphere which help to promote a holistic approach to learning. There is a right balance of cognitive, conceptual, ethical, humane and spiritual growth as a whole.</p>
         
         </motion.div>
       </div>

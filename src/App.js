@@ -22,7 +22,7 @@ const App = () => {
       <Nav />
       <Navhori />
       <About />
-      <Work />
+      {/* <Work /> */}
       <Slider/>
       <Events/>
       
