@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/XTASY-2K24/static/css/main.e12238d7.css",
-    "main.js": "/XTASY-2K24/static/js/main.5cd27848.js",
+    "main.css": "/XTASY-2K24/static/css/main.c4e34a1a.css",
+    "main.js": "/XTASY-2K24/static/js/main.624a1156.js",
     "static/media/bg2.jpg": "/XTASY-2K24/static/media/bg2.cfff74054e681697ec86.jpg",
     "static/media/services.png": "/XTASY-2K24/static/media/services.ffa808a8fa9bc0a4cd7d.png",
     "static/media/FACE PAINTING.jpg": "/XTASY-2K24/static/media/FACE PAINTING.ff47f194e45848da1c43.jpg",
@@ -27,11 +27,11 @@
     "static/media/image.png": "/XTASY-2K24/static/media/image.a24757192557f6e16b77.png",
     "static/media/djsan.png": "/XTASY-2K24/static/media/djsan.796bbfb051904b6c2a9f.png",
     "index.html": "/XTASY-2K24/index.html",
-    "main.e12238d7.css.map": "/XTASY-2K24/static/css/main.e12238d7.css.map",
-    "main.5cd27848.js.map": "/XTASY-2K24/static/js/main.5cd27848.js.map"
+    "main.c4e34a1a.css.map": "/XTASY-2K24/static/css/main.c4e34a1a.css.map",
+    "main.624a1156.js.map": "/XTASY-2K24/static/js/main.624a1156.js.map"
   },
   "entrypoints": [
-    "static/css/main.e12238d7.css",
-    "static/js/main.5cd27848.js"
+    "static/css/main.c4e34a1a.css",
+    "static/js/main.624a1156.js"
   ]
 }
