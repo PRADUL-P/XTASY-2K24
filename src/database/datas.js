@@ -420,17 +420,19 @@ const contact = [
     contact: "+91 99462 51408",
     whatsapp: "+9199462 51408",
   },
-  // {
-  //   title: "",
-  //   role:"coodinator",
-  //   contact:"123",
-  //   whatsapp:"8078376902",
-  // },{
-  //   title: "",
-  //   role:"coodinator",
-  //   contact:"123",
-  //   whatsapp:"8078376902",
-  // },
+  {
+    title: "SREEREJ M",
+    role:"STUDENT COORDINATOR",
+    contact:"+91 7592903207",
+    whatsapp:"+91 7592903207",
+  },
+  {
+    title: "ASHWIN P",
+    role:"STUDENT COORDINATOR",
+    contact:"+91 9747475105",
+    whatsapp:"+91 9747475105",
+  },
+ 
 ];
 const slider = [
   {

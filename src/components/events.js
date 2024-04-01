@@ -77,32 +77,31 @@ const Tabs = () => {
       <motion.div variants={textVariant()}>
         <h2 className="h2 text-accent m-10 mb-6 font-bold underline mb-[2rem] text-center ">schedule</h2>
       </motion.div>
-      <div className="flex justify-center">
-        {/* Tab buttons */}
+      <div className="flex flex-col sm:flex-row justify-center">
+  {/* Tab buttons */}
+  <button
+    className={`px-10 m-2 py-2 btn btn-sm ${activeTab === 0 ? "btn btn-lg" : "bg-gray-400 hover:bg-gray-500"}`}
+    onClick={() => handleTabClick(0)}
+  >
+    17-04-2024 <br />
+    WEDNESDAY
+  </button>
+  <button
+    className={`px-10 m-2 py-2 btn btn-sm ${activeTab === 1 ? "btn btn-lg" : "bg-gray-400 hover:bg-gray-500"}`}
+    onClick={() => handleTabClick(1)}
+  >
+    18-04-2024 <br />
+    THURSDAY
+  </button>
+  <button
+    className={`px-10 m-2 py-2  btn btn-sm ${activeTab === 2 ? "btn btn-lg" : "bg-gray-400 hover:bg-gray-500"}`}
+    onClick={() => handleTabClick(2)}
+  >
+    19-04-2024<br />
+    FRIDAY
+  </button>
+</div>
 
-
-        <button
-          className={`px-10 m-2 py-2 rounded-r btn btn-sm ${activeTab === 0 ? "btn btn-lg" : "bg-gray-400 hover:bg-gray-500"}`}
-          onClick={() => handleTabClick(0)}
-        >
-          17-04-2024 <br />
-          WEDNESDAY
-        </button>
-        <button
-          className={`px-10 m-2 py-2 btn btn-sm ${activeTab === 1 ? "btn btn-lg" : "bg-gray-400 hover:bg-gray-500"}`}
-          onClick={() => handleTabClick(1)}
-        >
-          18-04-2024 <br />
-          THURSDAY
-        </button>
-        <button
-          className={`px-10 m-2 py-2 rounded-l btn btn-sm ${activeTab === 2 ? "btn btn-lg" : "bg-gray-400 hover:bg-gray-500"}`}
-          onClick={() => handleTabClick(2)}
-        >
-          19-04-2024<br />
-          FRIDAY
-        </button>
-      </div>
       <div className="flex flex-row">
         {/* Day-wise details */}
         {activeTab === 0 && <Day1 />}
