@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/XTASY-2K24/static/css/main.c4e34a1a.css",
-    "main.js": "/XTASY-2K24/static/js/main.624a1156.js",
+    "main.css": "/XTASY-2K24/static/css/main.a2656f7e.css",
+    "main.js": "/XTASY-2K24/static/js/main.b24d6656.js",
     "static/media/bg2.jpg": "/XTASY-2K24/static/media/bg2.cfff74054e681697ec86.jpg",
-    "static/media/services.png": "/XTASY-2K24/static/media/services.ffa808a8fa9bc0a4cd7d.png",
     "static/media/FACE PAINTING.jpg": "/XTASY-2K24/static/media/FACE PAINTING.ff47f194e45848da1c43.jpg",
     "static/media/MIMICRY.jpg": "/XTASY-2K24/static/media/MIMICRY.1202111571f2de5d050d.jpg",
     "static/media/SPOT DANCE.jpg": "/XTASY-2K24/static/media/SPOT DANCE.3354c96feee637a22240.jpg",
+    "static/media/VOGUE GALA.jpg": "/XTASY-2K24/static/media/VOGUE GALA.c6885c20412a9fa28b6e.jpg",
     "static/media/MEHANDI DESIGN.jpg": "/XTASY-2K24/static/media/MEHANDI DESIGN.c8a283ab3823dc9ffc13.jpg",
     "static/media/FANCY DRESS.jpg": "/XTASY-2K24/static/media/FANCY DRESS.c2ea8eec9012e15962d8.jpg",
     "static/media/NOSTALGIA.jpg": "/XTASY-2K24/static/media/NOSTALGIA.895744a409889dd8c6ce.jpg",
@@ -17,21 +17,19 @@
     "static/media/VEGETABLE CARVING.jpg": "/XTASY-2K24/static/media/VEGETABLE CARVING.158c35a583cb868f9248.jpg",
     "static/media/PHOTOGRAPHY.jpg": "/XTASY-2K24/static/media/PHOTOGRAPHY.76c7227233784f94e23c.jpg",
     "static/media/jazzboy.png": "/XTASY-2K24/static/media/jazzboy.9e31a7a5ed68bfee7e0b.png",
-    "static/media/stm.png": "/XTASY-2K24/static/media/stm.bbf4462cc4f90183d257.png",
     "static/media/PROGRAMME SCHEDULE.pdf": "/XTASY-2K24/static/media/PROGRAMME SCHEDULE.ce7a80928d8146ed4974.pdf",
     "static/media/XTASY_2K24.png": "/XTASY-2K24/static/media/XTASY_2K24.2abe49b7efe2f124cb2e.png",
     "static/media/EVENT COORDINATORS.pdf": "/XTASY-2K24/static/media/EVENT COORDINATORS.aa9611525a5f8be456c2.pdf",
-    "static/media/iedc.png": "/XTASY-2K24/static/media/iedc.6e44399248f4af84cd4d.png",
     "static/media/Matadoria.png": "/XTASY-2K24/static/media/Matadoria.c3a4b1ce680abc5b187b.png",
     "static/media/EVENTS REGISTRATION FEE.pdf": "/XTASY-2K24/static/media/EVENTS REGISTRATION FEE.694b8b956b90253e1e2b.pdf",
     "static/media/image.png": "/XTASY-2K24/static/media/image.a24757192557f6e16b77.png",
     "static/media/djsan.png": "/XTASY-2K24/static/media/djsan.796bbfb051904b6c2a9f.png",
     "index.html": "/XTASY-2K24/index.html",
-    "main.c4e34a1a.css.map": "/XTASY-2K24/static/css/main.c4e34a1a.css.map",
-    "main.624a1156.js.map": "/XTASY-2K24/static/js/main.624a1156.js.map"
+    "main.a2656f7e.css.map": "/XTASY-2K24/static/css/main.a2656f7e.css.map",
+    "main.b24d6656.js.map": "/XTASY-2K24/static/js/main.b24d6656.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4e34a1a.css",
-    "static/js/main.624a1156.js"
+    "static/css/main.a2656f7e.css",
+    "static/js/main.b24d6656.js"
   ]
 }
