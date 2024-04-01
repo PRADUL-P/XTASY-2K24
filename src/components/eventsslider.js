@@ -22,6 +22,7 @@ import eventImage9 from '../assets/EVENTS/PHOTOGRAPHY.jpg';
 import eventImage10 from '../assets/EVENTS/SPOT DANCE.jpg';
 import eventImage11 from '../assets/EVENTS/SYNCHRONOUS DANCE.jpg';
 import eventImage12 from '../assets/EVENTS/VEGETABLE CARVING.jpg';
+import eventImage13 from '../assets/EVENTS/VOGUE GALA.jpg';
 
 const photos = [
   eventImage1,
@@ -35,7 +36,8 @@ const photos = [
   eventImage9,
   eventImage10,
   eventImage11,
-  eventImage12
+  eventImage12,
+  eventImage13
 ];
 
 const CoverFlow = () => {

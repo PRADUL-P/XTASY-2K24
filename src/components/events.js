@@ -117,11 +117,15 @@ const Tabs = () => {
               <div className="absolute inset-0 bg--500 opacity-75"></div>
             </div>
             <div className="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
-              <div className="px-4 pt-5 pb-4 sm:p-6 sm:pb-4 flex justify-end">
-                <button className="text-gray-500 hover:text-gray-700 focus:outline-none" onClick={closeModal}>
-                  <FontAwesomeIcon icon={faTimes} />
-                </button>
-              </div>
+            <div className="px-4 pt-5 pb-4 sm:p-6 sm:pb-4 flex justify-between items-center">
+               {/* PDF title */}
+  <h3 className="text-xl font-semibold text-gradient">{pdfName}</h3>
+  {/* Close button */}
+  <button className="text-gray-500 hover:text-gray-700 focus:outline-none" onClick={closeModal}>
+    <FontAwesomeIcon icon={faTimes} />
+  </button>
+ 
+</div>
               <div className="px-4 pb-4 sm:pb-4">
                 <embed src={pdfUrl} type="application/pdf" width="100%" height="700px" />
                 <div className="mt-5 sm:mt-4 flex justify-between">

@@ -3,17 +3,14 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
-
 import "react-vertical-timeline-component/style.min.css";
-
-import { styles } from "../styles";
-import { Fday } from "../database/datas";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
+import { Fday } from "../database/datas";
 
+import { styles } from "../styles";
 const ExperienceCard = ({ day1 }) => {
   const [showModal, setShowModal] = React.useState(false);
   const handleCloseModal = () => setShowModal(false);
@@ -23,6 +20,7 @@ const ExperienceCard = ({ day1 }) => {
       handleCloseModal();
     }
   };
+
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -33,167 +31,93 @@ const ExperienceCard = ({ day1 }) => {
         maxWidth: "800px", // Maximum width
       }}
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}
-      // date={day1.date}
-      iconStyle={{ background: day1.iconBg }}
+      // iconStyle={{ background: day1.iconBg }}
       icon={
         <div className="flex justify-center items-center w-full h-full">
-          {/* <h1 className="w-[60%] h-[60%] object-contain ">
-            {" "}
-            {day1.position}{" "}
-          </h1> */}
           <img
             src={day1.icon}
-            alt={day1.company_name}
-            className='w-[60%] h-[60%] object-contain'
+            // alt={day1.company_name}
+            className='w-[80%] h-[80%] object-contain rounded-full'
+            style={{ display: 'block', margin: 'auto' }}
           />
         </div>
       }
     >
       <div>
         <h3 className="text-white text-[24px] font-bold">{day1.title}</h3>
-        <p
-          className="text-secondary text-[16px] font-semibold"
-          style={{ margin: 0 }}
-        >
-          {day1.position}
-        </p>
-        <p
-          className="text-secondary text-[16px] font-semibold"
-          style={{ margin: 0 }}
-        >
-          {day1.years}
-        </p>
-      
+        <p className="text-secondary text-[16px] font-semibold" style={{ margin: 0 }}>{day1.position}</p>
+        <p className="text-secondary text-[16px] font-semibold" style={{ margin: 0 }}>{day1.years}</p>
       </div>
+
       <ul className="mt-5 list-disc ml-5 space-y-2">
-  {day1.points.map((point, index) => {
-    const maxLength = 160;
-    const truncatedPoint = point.paragraph && point.paragraph.length > maxLength ? point.paragraph.substring(0, maxLength) + '...' : point.paragraph;
-    
-    return (
-      <li key={`day1-point-${index}`} className="text-white-100 text-[14px] pl-1 tracking-wider items-center">
-        <h3 className="text-lg font-bold mb-2">{point.header}</h3><p className="text-gray-500 mt-2">{point.date}</p>
-        {truncatedPoint && <p className="leading-tight">{truncatedPoint}</p>}
-        
-       
-        {point.paragraph && point.paragraph.length > maxLength && (
-          <button className="text-blue-500 font-bold hover:text-blue-700 " onClick={() => setShowModal(true)}>
-            Read More
-          </button>
-          
-        )}
-      </li>
-    );
-  })}
-</ul>
+        {day1.points.map((point, index) => (
+          <li key={`day1-point-${index}`} className="text-white-100 text-[14px] pl-1 tracking-wider items-center">
+            <h3 className="text-lg font-bold mb-2">{point.header}</h3>
+            <p className="text-gray-500 mt-2">{point.date}</p>
+            <p className="leading-tight">{point.paragraph}</p>
+          </li>
+        ))}
+      </ul>
 
+      <a className="text-gradient btn-link lg:item-center text-center uppercase m-5" onClick={() => setShowModal(true)}>more details</a>
 
-      {/* <ul className="mt-5 list-disc ml-5 space-y-2">
-  {day1.points.map((point, index) => {
-    const maxLength = 200; // Set the maximum length of the truncated text
-    const truncatedPoint = point.length > maxLength ? point.substring(0, maxLength) + '...' : point; // Truncate the text if it's longer than maxLength
-    
-    return (
-      <li key={`day1-point-${index}`} className="text-white-100 text-[14px] pl-1 tracking-wider items-center">
-        <h3 className="text-lg font-bold mb-2">{point.header}</h3>
-        <p className="leading-tight">{truncatedPoint}</p>
-        <p className="text-gray-500 mt-2">{point.date}</p>
-       
-        {point.length > maxLength && (
-          <button className="text-blue-500 font-bold hover:text-blue-700 " onClick={() => window.alert(point)}>
-            Read More
-          </button>
-        )}
-      </li>
-    );
-  })}
-</ul> */}
-
-
-      <a
-        className="text-gradient btn-link lg:item-center text-center uppercase  m-5"
-        type="button"
-        onClick={() => setShowModal(true)}
-      >
-        more details
-      </a>
-      {showModal ? (
+      {showModal && (
         <>
-          <div className="modal justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
-          onClick={handleModalClick}>
-            <div className="relative w-full h-full my-6 mx-auto max-w-6xl">
-              {/*content*/}
+          <div className="modal justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none" onClick={handleModalClick}>
+            <div className=" relative w-full h-full my-6 mx-auto max-w-6xl">
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-bgc outline-none focus:outline-none">
-                {/*header*/}
                 <div className=" items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
-                <h3 className="text-3xl font-semibold ">{day1.title}</h3>
-                <p className="text-2xl font-semibold ">{day1.years}</p>
-                {day1.position}
-                  <button
-                  className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
-                  onClick={handleCloseModal}
-                >
-                    <span className="text-white-100   h-6 w-6 text-2xl  ">
-                    <FontAwesomeIcon icon={faXmark} fade className="text-white 
-                    " />
-                    </span>
-                  </button>
+                <button className="p-1 ml-auto bg-transparent border-0 text-white opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none" onClick={handleCloseModal}>
+  <span className="text-white-100 h-6 w-6 text-2xl">
+    <FontAwesomeIcon icon={faXmark} fade />
+  </span>
+</button>
+                  <h3 className="text-3xl font-semibold text-center">{day1.title}</h3>
+                  {/* <p className="text-2xl font-semibold">{day1.years}</p> */}
+                  {/* <p>{day1.position}</p> */}
+                  <img
+  src={day1.icon}
+  alt="Event"
+  className="w-[40%] max-h-25 mt-4 mx-auto"
+  style={{ maxHeight: '50%', display: 'block' }} // Set max height to 50% of modal box height
+/>
+                 
                 </div>
-                {/*body*/}
+
                 <div className="relative p-6 flex-auto">
-                <ul className="mt-5 list-disc ml-5 space-y-2">
-  {day1.points.map((point, index) => {
-    const maxLength = 200;
-    const truncatedPoint = point.paragraph && point.paragraph.length > maxLength ? point.paragraph.substring(0, maxLength) + '...' : point.paragraph;
-    
-    return (
-      <li key={`day1-point-${index}`} className="text-white-100 text-[14px] pl-1 tracking-wider items-center">
-        <h3 className="text-lg font-bold mb-2">{point.header}</h3>
-        {/* {truncatedPoint && <p className="leading-tight">{truncatedPoint}</p>} */}
-        <p className="text-gray-500 mt-2">{point.date}</p>
-        <p className="text-gray-500 mt-2">{point.paragraph}</p>
-       
-    
-      </li>
-    );
-  })}
-</ul>
-                  {/* <p
-          className="text-secondary text-[16px] font-semibold"
-          style={{ margin: 0 }}
-        >
-          {day1.position}
-        </p>
-        <p
-          className="text-secondary text-[16px] font-semibold"
-          style={{ margin: 0 }}
-        >
-          {day1.fee}
-        </p> */}
-                </div>
-                {/*footer*/}
+  {/* Display additional data in the modal */}
+  <p className="text-3xl font-semibold text-white-100">Event Rules:</p>
+  <ul className="list-disc ml-5">
+    {day1.rules.map((rule, index) => (
+      <li key={`rule-${index}`} className="text-white-500">{rule}</li>
+    ))}
+  </ul>
+  {/* <img src={day1.eventImage} alt="Event" className="w-full max-h-96 object-cover mt-4" /> */}
+  {/* <p>Other Details: {day1.otherDetails}</p> */}
+</div>
+
+
                 <div className="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">
-                  <button
-                    className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                    type="button"
-                    onClick={() => setShowModal(false)}
-                  >
+                <button  
+                  className="text-gradient px-10 m-2 py-2  btn-link lg:item-center text-center uppercase"
+                  type="button"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    window.location.href='https://forms.gle/RPtoSDGWfZ8dgJta8';
+                  }}
+                >
+                  REGISTER
+                </button>
+                  <button className="text-gradient px-10 m-2 py-2  btn-link lg:item-center text-center uppercase text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button" onClick={() => setShowModal(false)}>
                     Close
                   </button>
-                  {/* <button
-                    className="bg-emerald-500 text-white active:bg-emerald-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                    type="button"
-                    onClick={() => setShowModal(false)}
-                  >
-                    register now
-                  </button> */}
                 </div>
               </div>
             </div>
           </div>
           <div className="opacity-50 fixed inset-0 z-40 bg-black"></div>
         </>
-      ) : null}
+      )}
     </VerticalTimelineElement>
   );
 };
@@ -202,7 +126,6 @@ const Experience = () => {
   return (
     <>
       <div variants={textVariant()}>
-        {/* <p className={`${styles.sectionSubText} text-center`}>day 2<br/>27/04/2023</p> */}
         <h2 className={`${styles.sectionHeadText} text-center`}>DAY 1</h2>
       </div>
 

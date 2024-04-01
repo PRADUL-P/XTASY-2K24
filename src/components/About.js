@@ -11,7 +11,7 @@ const About = () => {
   return( 
   <section className='section' id='about' ref={ref}>
     <div className='container mx-auto'>
-      <div className='flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen'> 
+      <div className='flex flex-col gap-y-1 lg:flex-row lg:items-center lg:gap-x-5 lg:gap-y-0 '> 
       {/* <motion.div
       variants={fadeIn('right',0.5)}
       initial='hidden'
@@ -21,7 +21,7 @@ const About = () => {
 
       </motion.div> */}
         <motion.div
-        variants={fadeIn('left',0.5)}
+        variants={fadeIn('left',0.1)}
         initial='hidden'
         whileInView={'show'}
         viewport={{once:false,amount:0.7}} 
@@ -32,17 +32,7 @@ const About = () => {
 Join us as we embark on a journey of discovery, creativity, and camaraderie. XTASY 2K24 is not just an event; it’s an experience you won’t want to miss !!</p>
         
         </motion.div>
-        {/* <motion.div
-        variants={fadeIn('left',0.5)}
-        initial='hidden'
-        whileInView={'show'}
-        viewport={{once:false,amount:0.7}} 
-        className='flex-1'>  
-          <h2 className='h2 text-accent'>About <span className='text-white'>college</span> </h2>
-          <h3 className='h3 mb-4'></h3>
-          <p className='mb-6'>St Thomas Engineering College, Sivapuram, Mattannur was established by St Thomas Educational Society, Adoor with a view to impart high quality engineering education through systematic studies and efficient training. The college has a team of eminent faculty members and a disciplined atmosphere which help to promote a holistic approach to learning. There is a right balance of cognitive, conceptual, ethical, humane and spiritual growth as a whole.</p>
-        
-        </motion.div> */}
+       
       </div>
     </div>
  
