@@ -262,7 +262,7 @@ const Sday = [
     {
         title: "RAMP WALK ",
         position: "ACTIVITY-POINT : UPTO 40",
-       icon: VOGUEGALA,
+        icon: VOGUEGALA,
         //  fee: "fui",
         iconBg: "#383E56",
         years: "REGISTRATION FEE : 1500",
@@ -287,25 +287,6 @@ const Sday = [
                 paragraph: "",
                 date: "Ashwin K (S8 CSE) Sreerej M(S8 CSE)",
             },
-        ],
-    },
-    {
-        title: "STAFF - SPECIAL PERFORMANCE ",
-        // position: "",
-        //  icon:civilenggImage,
-        //  fee: "fui",
-        // iconBg: "#383E56",
-        years: "  ",
-        rules: [ // List of event rules
-        // "The group can consist of all boys or girls or combined",
-        // "Maximum of 10 participants.",
-        // "Time allowed is 10 minutes.",
-        // "Use of make-up, drapery and background music is allowed.",
-        // "The item will be judged basically on qualities like theme, stage craft, elegant walking style and general impression",
-    ],
-
-        points: [
-            
         ],
     },
 

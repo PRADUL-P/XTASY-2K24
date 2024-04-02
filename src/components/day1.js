@@ -67,50 +67,47 @@ const ExperienceCard = ({ day1 }) => {
             <div className=" relative w-full h-full my-6 mx-auto max-w-6xl">
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-bgc outline-none focus:outline-none">
                 <div className=" items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
-                <button className="p-1 ml-auto bg-transparent border-0 text-white opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none" onClick={handleCloseModal}>
-  <span className="text-white-100 h-6 w-6 text-2xl">
-    <FontAwesomeIcon icon={faXmark} fade />
-  </span>
-</button>
+                  <button className="absolute top-4 right-4 text-white bg-gray-700 px-2 py-1 rounded-md" onClick={handleCloseModal} >
+                    <span className="text-white-100 h-6 w-6 text-2xl">
+                      <FontAwesomeIcon icon={faXmark} fade />
+                    </span>
+                  </button>
                   <h3 className="text-3xl font-semibold text-center">{day1.title}</h3>
                   {/* <p className="text-2xl font-semibold">{day1.years}</p> */}
                   {/* <p>{day1.position}</p> */}
                   <img
-  src={day1.icon}
-  alt="Event"
-  className="w-[40%] max-h-25 mt-4 mx-auto"
-  style={{ maxHeight: '50%', display: 'block' }} // Set max height to 50% of modal box height
-/>
-                 
+                    src={day1.icon}
+                    alt="Event"
+                    className="w-[40%] max-h-25 mt-4 mx-auto"
+                    style={{ maxHeight: '50%', display: 'block' }} // Set max height to 50% of modal box height
+                  />
+
                 </div>
-
-                <div className="relative p-6 flex-auto">
-  {/* Display additional data in the modal */}
-  <p className="text-3xl font-semibold text-white-100">Event Rules:</p>
-  <ul className="list-disc ml-5">
-    {day1.rules.map((rule, index) => (
-      <li key={`rule-${index}`} className="text-white-500">{rule}</li>
-    ))}
-  </ul>
-  {/* <img src={day1.eventImage} alt="Event" className="w-full max-h-96 object-cover mt-4" /> */}
-  {/* <p>Other Details: {day1.otherDetails}</p> */}
-</div>
-
-
-                <div className="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">
-                <button  
-                  className="text-gradient px-10 m-2 py-2  btn-link lg:item-center text-center uppercase"
+                <button
+                  className='btn btn-sm p-20%'
                   type="button"
                   onClick={(e) => {
                     e.preventDefault();
-                    window.location.href='https://forms.gle/RPtoSDGWfZ8dgJta8';
+                    window.location.href = 'https://forms.gle/RPtoSDGWfZ8dgJta8';
                   }}
                 >
                   REGISTER
                 </button>
-                  <button className="text-gradient px-10 m-2 py-2  btn-link lg:item-center text-center uppercase text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button" onClick={() => setShowModal(false)}>
-                    Close
-                  </button>
+                <div className="relative p-6 flex-auto">
+                  {/* Display additional data in the modal */}
+                  <p className="text-3xl font-semibold text-white-100">Event Rules:</p>
+                  <ul className="list-disc ml-5">
+                    {day1.rules.map((rule, index) => (
+                      <li key={`rule-${index}`} className="text-white-500">{rule}</li>
+                    ))}
+                  </ul>
+                  {/* <img src={day1.eventImage} alt="Event" className="w-full max-h-96 object-cover mt-4" /> */}
+                  {/* <p>Other Details: {day1.otherDetails}</p> */}
+                </div>
+
+
+                <div className="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">
+
                 </div>
               </div>
             </div>
