@@ -508,10 +508,10 @@ const contact = [
         whatsapp: "+9198094 21421",
     },
     {
-        title: "NIGIL M",
+        title: "ADARSH MADHU",
         role: "STAFF COORDINATOR",
-        contact: "+91 99462 51408",
-        whatsapp: "+9199462 51408",
+        contact: "+91 9995028016",
+        whatsapp: "+919995028016",
     },
     {
         title: "SREEREJ M",
